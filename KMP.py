@@ -18,9 +18,8 @@ def KMP(p,t,k,m,n):
     i=k
     j=0
     while j<m and i<n:
-        while j<=0 and t[i] != p[j]:
+        while j>=0 and t[i] != p[j]:
             j=next[j]
-            print(i,j)
         i+=1
         j+=1
     if j==m:

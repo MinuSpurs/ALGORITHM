@@ -37,8 +37,8 @@ def BM(p,t,k):
         j-=1
     return i+1
 
-text='VISION QUESTION ONION CAPTION GRADUATION EDUCATION'
-pattern='ATION'
+text='STRING STARTING CONSISTING'
+pattern='STING'
 M=len(pattern)
 N=len(text)
 K=0

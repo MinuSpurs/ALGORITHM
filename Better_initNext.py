@@ -14,7 +14,7 @@ def initNext(p,m):
         j+=1
 
 next = [0] * 50
-pattern='ababca'
+pattern='abracadabra'
 M = len(pattern)
 initNext(pattern, M)
 for i in range(1,M):
