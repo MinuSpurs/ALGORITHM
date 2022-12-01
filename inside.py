@@ -16,6 +16,7 @@ def ccw(p0, p1, p2):
         return -1
     if (dx1 * dx1 + dy1 * dy1) < (dx2 * dx2 + dy2 + dy2):
         return +1
+    return 0
 
 def intersect(l1, l2):
     t1 = ccw(l1.p1, l1.p2, l2.p1) * ccw(l1.p1, l1.p2, l2.p2)
